@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# Jamerson Lucas Tenorio
 # UAG00098
 # Problem Set 1 - Problem 2
 # Description:
