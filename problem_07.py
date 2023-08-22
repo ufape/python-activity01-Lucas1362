@@ -2,7 +2,7 @@
 
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# Jamerson Lucas Tenorio 
 # UAG00098
 # Problem Set 1 - Problem 7
 # Description:
@@ -31,8 +31,10 @@ Levará 60 min.
 
 
 def main():
-    pass # your code here
+    distancia = int(input("Digite a distância (em km) desejada: "))
+    min = distancia * 2 
 
+    print(f"Levará {min} min.")
 
 if __name__ == '__main__':
     main()
