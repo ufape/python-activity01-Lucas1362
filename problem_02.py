@@ -28,7 +28,12 @@ Soma = 19
 
 
 def main():
-    pass # your code here
+   A = int(input("Digite o valor de A: "))
+   B = int(input("Digite o valor de B: ")) 
+
+   Soma = A + B
+
+   print(f"Soma = {Soma}")
 
 
 if __name__ == '__main__':
