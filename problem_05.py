@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# Jamerson Lucas Tenorio
 # UAG00098
 # Problem Set 1 - Problem 5
 # Description:
@@ -28,7 +28,11 @@ Volume: 14137.1550L
 
 
 def main():
-    pass # your code here
+    raio = float(input("Digite o valor do raio: "))
+    volume = (4/3) * 3.14159 * (raio ** 3)
+
+    print(f"Volume: {volume:.4f}L")
+
 
 
 if __name__ == '__main__':
