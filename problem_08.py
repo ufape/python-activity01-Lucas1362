@@ -2,7 +2,7 @@
 
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# Jamerson Lucas Tenorio 
 # UAG00098
 # Problem Set 1 - Problem 7
 # Description:
@@ -32,8 +32,35 @@ Detectamos 4 valores positivos.
 
 
 def main():
-    pass # your code here
+    num1 = float(input(f"Valor (1/6): "))
+   
+    num2 = float(input(f"Valor (2/6): "))
+
+    num3 = float(input(f"Valor (3/6): "))
+
+    num4 = float(input(f"Valor (4/6): "))
+
+    num5 = float(input(f"Valor (5/6): "))
+
+    num6 = float(input(f"Valor (6/6): "))
+
+    valores_positivos = 0
+   
+    if num1 > 0:
+      valores_positivos = valores_positivos + 1
+    if num2 > 0:
+      valores_positivos = valores_positivos + 1
+    if num3 > 0:
+      valores_positivos = valores_positivos + 1
+    if num4 > 0: 
+      valores_positivos = valores_positivos + 1
+    if num5 > 0:
+      valores_positivos = valores_positivos + 1
+    if num6 > 0:
+      valores_positivos = valores_positivos + 1
 
 
+    print(f"Detectamos {valores_positivos} valores positivos.")
+      
 if __name__ == '__main__':
     main()
